@@ -14,6 +14,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        bgground: '#FFFBF0',
                     }
                 }
             }
@@ -22,24 +23,182 @@
 </head>
 
 <body>
-    <header>
+    <header class="bgground py-10">
         <div class="container mx-auto">
-            <div>
-                <h2 class="text-6xl font-extrabold">Be the Penguins <br> of Winter</h2>
-                <p class="text-lg">Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry</p>
-                <button class="px-5 py-2 bg-green-400 text-white uppercase font-medium rounded"><svg
-                        xmlns="http://www.w3.org/2000/svg" class="h-6 inline w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                    </svg> buy now</button>
-            </div>
-            <div>
-                <img src="" alt="">
+            <div class="flex justify-around items-center">
+                <div class="space-y-6">
+                    <h2 class="text-6xl font-extrabold">Be the Penguins <br> of Winter</h2>
+                    <p class="text-lg">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry</p>
+                    <button class="px-5 py-2 bg-green-400 text-white uppercase font-medium rounded"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="h-6 inline w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg> buy now</button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
             </div>
         </div>
     </header>
+    <section>
+        <div class="container py-4 mx-auto">
+            <h2 class="py-7 text-5xl font-bold uppercase">women jacket</h2>
+            <div class="jackets grid grid-cols-3  gap-2.5">
+                <div class="jacket p-2 border-2 shadow space-y-6">
+                    <div class="rounded-lg bg-gray-300 p-8">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-medium capitalize">yellow coat jacket</h2>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed provident
+                            laboriosam expedita
+                            reiciendis ipsa dicta.</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-4xl font-bold ">$200</h3>
+                        <a href="#" class="bg-red-500 uppercase text-xl font-medium text-white py-3 px-4 rounded-md">buy
+                            now</a>
+                    </div>
+                </div>
+                <div class="jacket p-2 border-2 shadow space-y-6">
+                    <div class="rounded-lg bg-gray-300 p-8">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="text-xl font-medium capitalize">yellow coat jacket</h2>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed provident
+                            laboriosam expedita
+                            reiciendis ipsa dicta.</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-4xl font-bold ">$200</h3>
+                        <a href="#" class="bg-red-500 uppercase text-xl font-medium text-white py-3 px-4 rounded-md">buy
+                            now</a>
+                    </div>
+                </div>
+                <div class="jacket p-2 border-2 shadow space-y-6">
+                    <div class="rounded-lg bg-gray-300 p-8">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <div>
+
+                        <h2 class="text-xl font-medium capitalize">yellow coat jacket</h2>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed provident
+                            laboriosam expedita
+                            reiciendis ipsa dicta.</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-4xl font-bold ">$200</h3>
+                        <a href="#" class="bg-red-500 uppercase text-xl font-medium text-white py-3 px-4 rounded-md">buy
+                            now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- male collection -->
+    <section>
+        <div class="container py-4 mx-auto">
+            <h2 class="py-7 text-5xl font-bold uppercase">men jacket</h2>
+            <div class="jackets grid grid-cols-3  gap-2.5">
+
+                <div class="jacket p-2 border-2 shadow space-y-6">
+                    <div class="rounded-lg bg-gray-300 p-8">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <div>
+
+                        <h2 class="text-xl font-medium capitalize">yellow coat jacket</h2>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed provident
+                            laboriosam expedita
+                            reiciendis ipsa dicta.</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-4xl font-bold ">$200</h3>
+                        <a href="#" class="bg-red-500 uppercase text-xl font-medium text-white py-3 px-4 rounded-md">buy
+                            now</a>
+                    </div>
+                </div>
+
+                <div class="jacket p-2 border-2 shadow space-y-6">
+                    <div class="rounded-lg bg-gray-300 p-8">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <div>
+
+                        <h2 class="text-xl font-medium capitalize">yellow coat jacket</h2>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed provident
+                            laboriosam expedita
+                            reiciendis ipsa dicta.</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-4xl font-bold ">$200</h3>
+                        <a href="#" class="bg-red-500 uppercase text-xl font-medium text-white py-3 px-4 rounded-md">buy
+                            now</a>
+                    </div>
+                </div>
+
+                <div class="jacket p-2 border-2 shadow space-y-6">
+                    <div class="rounded-lg bg-gray-300 p-8">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <div>
+
+                        <h2 class="text-xl font-medium capitalize">yellow coat jacket</h2>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed provident
+                            laboriosam expedita
+                            reiciendis ipsa dicta.</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-4xl font-bold ">$200</h3>
+                        <a href="#" class="bg-red-500 uppercase text-xl font-medium text-white py-3 px-4 rounded-md">buy
+                            now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- bottom area start 
+     -->
+    <section class="bottom-area py-14">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 gap-6">
+
+                <div class=" flex items-center justify-around p-5">
+                    <img class="w-20" src="icons/image 12.png" alt="">
+                    <div>
+                        <h2 class="text-3xl font-medium">Free Exchanges
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, alias!</p>
+                    </div>
+                </div>
+                <div class=" flex items-center justify-around row-span-3 p-5">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class=" flex items-center justify-around p-5">
+                    <img class="w-20" src="icons/image 13.png" alt="">
+                    <div>
+                        <h2 class="text-3xl font-medium">Free Exchanges
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, alias!</p>
+                    </div>
+                </div>
+                <div class=" flex items-center justify-around p-5">
+                    <img class="w-20" src="icons/image 14.png" alt="">
+                    <div>
+                        <h2 class="text-3xl font-medium">Free Exchanges
+                        </h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, alias!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
